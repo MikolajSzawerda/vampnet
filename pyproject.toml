@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "vampnet"
+version = "0.1.0"
+description = ""
+authors = ["Hugo Flores García, Prem Seetharaman <hfgacrcia@descript.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wavebeat = {git = "https://github.com/hugofloresgarcia/wavebeat"}
+llvmlite = "^0.43.0"
+numpy = "1.23"
+descript-audiotools = {git = "https://github.com/hugofloresgarcia/audiotools.git"}
+lac = {git = "https://github.com/hugofloresgarcia/lac.git"}
+pyharp = {git = "https://github.com/audacitorch/pyharp.git"}
+argbind = ">=0.3.2"
+loralib = "^0.1.2"
+torch-pitch-shift = "^1.2.5"
+plotly = "^5.24.1"
+umap-learn = "^0.5.7"
+cython = "^3.0.11"
+madmom = {git = "https://github.com/CPJKU/madmom"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

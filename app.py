@@ -660,5 +660,5 @@ with gr.Blocks() as demo:
     )
 
 
-demo.launch(share=True, debug=True)
+demo.launch(share=False, debug=True)
 demo.queue()
